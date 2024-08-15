@@ -1,0 +1,120 @@
+@media only screen and (max-width: 576px) {
+    .width {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* navbar */
+    .navlinks {
+        display: none;
+    }
+
+    /* .hamburg-menu {
+        display: block;
+    } */
+
+    .banner-content {
+        flex-direction: column;
+    }
+
+    .banner-texts {
+        max-width: 100%;
+    }
+
+    .banner-headline {
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 2.5rem;
+        margin-bottom: 0px;
+    }
+
+    #shape {
+        font-size: 3rem;
+    }
+
+    .btn-primary {
+        padding: 15px 25px;
+        font-size: 1rem;
+    }
+
+    .btn-secondary {
+        padding: 15px 25px;
+        font-size: 1rem;
+    }
+
+    #banner-card-1 {
+        top: 60px;
+        right: -10px;
+    }
+
+    #banner-card-1>h3 {
+        font-size: 1.5rem;
+    }
+
+    #banner-card-2 {
+        bottom: 40%;
+        left: 0px;
+    }
+
+    #banner-card-2-texts>h3 {
+        font-size: 1rem;
+    }
+
+    /* change habits */
+    .change-habits-cards {
+        flex-direction: column;
+    }
+
+    .change-habits-card {
+        margin-top: 2rem;
+    }
+
+    /* run extra */
+    .run-extra {
+        flex-direction: column;
+        padding: 2rem 2rem;
+        margin-top: 2rem;
+        max-width: 80%;
+    }
+
+    .run-extra-texts {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .run-extra-texts>button {
+        width: 100%;
+    }
+
+    .run-extra-img>img {
+        width: 100%;
+    }
+
+    /* meet team */
+    .meet-team-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .meet-team-card>img {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-brand-name {
+        font-size: 4rem;
+    }
+
+    .footer-contents {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+
+    .footer-second-col>h2,
+    .footer-third-col>h2 {
+        margin-top: 2rem;
+    }
+}
