@@ -406,9 +406,16 @@ footer>hr {
 
 .four-fields {
     display: grid;
-    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 45px);
     gap: 0.5rem;
+    box-sizing: border-box;
+}
+
+.four-fields input,
+.four-fields select {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .last-field {
@@ -448,7 +455,6 @@ option {
     display: flex;
     gap: 3rem;
     margin-top: 4rem;
-    /* justify-content: space-evenly; */
 }
 
 .unique-section-img {
