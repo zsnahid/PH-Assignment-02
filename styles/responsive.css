@@ -117,4 +117,13 @@
     .footer-third-col>h2 {
         margin-top: 2rem;
     }
+
+    /* bmi */
+    .bmi-chart-and-calc{
+        flex-direction: column;
+    }
+
+    .bmi-calc{
+        width: 100%;
+    }
 }
