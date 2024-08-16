@@ -13,9 +13,9 @@
         display: none;
     }
 
-    /* .hamburg-menu {
+    .hamburg-menu {
         display: block;
-    } */
+    }
 
     .banner-content {
         flex-direction: column;
@@ -119,11 +119,16 @@
     }
 
     /* bmi */
-    .bmi-chart-and-calc{
+    .bmi-chart-and-calc {
         flex-direction: column;
     }
 
-    .bmi-calc{
+    .bmi-calc {
         width: 100%;
+    }
+
+    /* unique section */
+    .unique-section-contents {
+        flex-direction: column;
     }
 }

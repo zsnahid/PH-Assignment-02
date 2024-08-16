@@ -107,9 +107,9 @@ nav>ul>li {
     margin: 2px;
 }
 
-/* .humburg-menu{
+.hamburg-menu{
     display: none;
-} */
+}
 
 #home {
     background-color: #E6533C;
@@ -274,17 +274,18 @@ nav>ul>li {
 }
 
 /* bmi calc styles */
-table{
+table {
     border-collapse: collapse;
 }
 
-td, th{
+td,
+th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: left;
     padding: 10px 40px;
 }
 
-td{
+td {
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -365,7 +366,7 @@ footer {
 
 
 .footer-second-col>ul>li,
-.footer-third-col>ul>li{
+.footer-third-col>ul>li {
     margin-top: 2rem;
 }
 
@@ -376,14 +377,14 @@ footer {
     font-size: 1.3rem;
 }
 
-footer>hr{
+footer>hr {
     width: 80%;
     border: none;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.copyright-text{
+.copyright-text {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 1rem;
@@ -392,29 +393,29 @@ footer>hr{
 
 /* bmi */
 
-.bmi-contents{
+.bmi-contents {
     background-color: #222222;
 }
 
-.bmi-chart-and-calc{
+.bmi-chart-and-calc {
     display: flex;
     /* gap: 100px; */
     justify-content: space-between;
     padding: 4rem 0;
 }
 
-.bmi-calc{
+.bmi-calc {
     width: 50%;
 }
 
-.four-fields{
+.four-fields {
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(2, 45px);
     gap: 0.5rem;
 }
 
-.last-field{
+.last-field {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 45px;
@@ -422,14 +423,14 @@ footer>hr{
     margin-bottom: 1.5rem;
 }
 
-input{
+input {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 0.3rem;
     padding: 0 0.5rem;
 }
 
-select{
+select {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 0.3rem;
@@ -438,8 +439,64 @@ select{
 }
 
 
-option{
+option {
     border: none;
     color: white;
     background-color: #222222;
 }
+
+
+/* unique section styles */
+
+.unique-section-contents {
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+    /* justify-content: space-evenly; */
+}
+
+.unique-section-img {
+    height: 500px;
+    border-radius: 0.5rem;
+}
+
+.unique-section-texts>h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.unique-section-texts>h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    margin-top: 0;
+}
+
+.unique-section-texts>p{
+    /* font-size: 2.5rem; */
+    /* font-weight: 700; */
+    margin-bottom: 4rem;
+    /* margin-top: 0; */
+}
+
+.unique-section-card {
+    /* height: 200px; */
+    width: 320px;
+    background-color: #222222;
+    border-radius: 0.5rem;
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+    /* max-width: 100%; */
+    /* border: 1px solid green; */
+
+}
+
+.unique-section-card>h4{
+    display: inline;
+} 
+
+.unique-section-card>h3{
+    margin-top: 0;
+} 
