@@ -409,7 +409,6 @@ footer>hr {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 45px);
     gap: 0.5rem;
-    box-sizing: border-box;
 }
 
 .four-fields input,
