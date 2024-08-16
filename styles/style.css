@@ -78,6 +78,13 @@ h3 {
 
 
 /* header style */
+header {
+    background: linear-gradient(180deg,
+            rgba(19, 19, 19, 0.747) 0%,
+            rgb(30, 30, 30) 50%,
+            rgba(1, 1, 1, 0.719) 100%);
+}
+
 /* navbar style */
 .navbar {
     display: flex;
@@ -107,7 +114,7 @@ nav>ul>li {
     margin: 2px;
 }
 
-.hamburg-menu{
+.hamburg-menu {
     display: none;
 }
 
@@ -196,13 +203,6 @@ nav>ul>li {
 #banner-card-2-texts>p {
     font-size: 0.9rem;
     margin: 0;
-}
-
-#orange-circle {
-    height: 30px;
-    width: 30px;
-    background-color: #E6533C;
-    border-radius: 50%;
 }
 
 /* change habits section */
@@ -334,10 +334,6 @@ footer {
     gap: 80px;
 }
 
-.footer-contents>div {
-    /* border: 1px solid white; */
-}
-
 .footer-brand-name {
     text-align: left;
     color: #E6533C;
@@ -460,21 +456,21 @@ option {
     border-radius: 0.5rem;
 }
 
-.unique-section-texts>h1{
+.unique-section-texts>h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 0;
     margin-top: 0;
 }
 
-.unique-section-texts>h2{
+.unique-section-texts>h2 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 4rem;
     margin-top: 0;
 }
 
-.unique-section-texts>p{
+.unique-section-texts>p {
     margin-bottom: 4rem;
 }
 
@@ -486,10 +482,10 @@ option {
     margin-bottom: 2rem;
 }
 
-.unique-section-card>h4{
+.unique-section-card>h4 {
     display: inline;
-} 
+}
 
-.unique-section-card>h3{
+.unique-section-card>h3 {
     margin-top: 0;
-} 
+}
